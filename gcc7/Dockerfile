@@ -1,4 +1,4 @@
-FROM cddacommon
+FROM ralreegorganon/cddadocker:cddacommon
 RUN apt-get update && apt-get install -y \
     g++-7 \
     g++-7-multilib

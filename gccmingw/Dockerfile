@@ -1,4 +1,4 @@
-FROM cddacommon
+FROM ralreegorganon/cddadocker:cddacommon
 RUN apt-get update && apt-get install -y \
     gnupg
 RUN echo "deb http://pkg.mxe.cc/repos/apt/debian wheezy main" > /etc/apt/sources.list.d/mxeapt.list
