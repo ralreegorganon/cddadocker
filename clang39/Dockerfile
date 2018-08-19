@@ -1,4 +1,4 @@
-FROM ralreegorganon/cddadocker:cddaclangcommon
+FROM ralreegorganon/cddadocker:clangcommon
 RUN apt-get update && apt-get install -y \
     clang++-3.9 
 ENV CXX=clang++-3.9
