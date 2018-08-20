@@ -14,7 +14,6 @@ RUN apt-get update && apt-get install -y \
     ccache \
     lua5.2 \
     liblua5.2-dev \
-    astyle \
     lcov \
     git
 ENV CCACHE=1
